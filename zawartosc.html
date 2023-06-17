@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zawartosc</title>
     <style>
         @media (min-width: 500px) {
-            body {
-                background-color: red;
+            h1::before {
+                content: "To jest duzy ekran";
             }
         }
         @media (max-width: 499px) {
-            body {
-                background-color: blue;
+            h1::before {
+                content: "To jest ekran telefonu";
             }
         }
     </style>
 </head>
 <body>
-    <h2>Rozne ekrany, rozne tlo.</h2>
-    <p>Na komputerze jest tło czerwone (bo jest ekran powyzej 500px)</p>
-    <p>Na telefonie jest tło niebieskie (ekran ma szerokosc ponizej 500px)</p>
+    <h1></h1>
     <a href="index.html">Powrot do głównej strony.</a>
 </body>
 </html>
